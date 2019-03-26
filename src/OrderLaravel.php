@@ -3,20 +3,33 @@
 namespace JustinLaravel;
 
 use Config;
-use Justin\Justin;
+use Justin\Order;
 
 /**
  *
- * Class JustinLaravel
+ * Class OrderLaravel
  *
- * @package JustinLaravel;
+ * @package JustinLaravel
  *
  */
-class JustinLaravel extends Justin
+class OrderLaravel extends Order
 {
-
+    /**
+     *
+     * INIT CLASS
+     *
+     * @param STRING $language
+     *
+     * @param BOOLEAN $sandbox
+     *
+     * @param STRING $version
+     *
+     * @return OBJECT
+     *
+     */
     public function __construct($language = 'UA', $sandbox = false, $version = 'v2', $timeout = 60, $connect_timeout = 60, $timezone = 'UTC')
     {
+
         ###
         # SET CONFIG
         #
@@ -73,7 +86,11 @@ class JustinLaravel extends Justin
 
                 config('justin-laravel.password')
 
-            );
+            )->orderVersion(
+
+            config('justin-laravel.orderVersion')
+
+        );
 
     }
 
