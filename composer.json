@@ -1,0 +1,30 @@
+{
+    "name": "jack/laravel-justin",
+    "description": "Laravel package Justin API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgen Kytonin",
+            "email": "killfess@gmail.com"
+        }
+    ],
+    "require": {
+        "jackmartin/justin": "*.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JustinLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JustinLaravel\\JustinServiceProvider"
+            ],
+            "aliases": {
+                "JustinLar": "JustinLaravel\\Facades\\JustinFacade"
+            }
+        }
+    }
+}
