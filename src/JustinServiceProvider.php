@@ -4,7 +4,6 @@ namespace JustinLaravel;
 
 use Illuminate\Support\ServiceProvider;
 use JustinLaravel\JustinLaravel;
-use JustinLaravel\OrderLaravel;
 
 class JustinServiceProvider extends ServiceProvider
 {
@@ -34,12 +33,6 @@ class JustinServiceProvider extends ServiceProvider
         $this->app->bind('justinLaravel', function () {
 
             return new JustinLaravel;
-
-        });
-
-        $this->app->bind('orderLaravel', function () {
-
-            return new OrderLaravel;
 
         });
 
