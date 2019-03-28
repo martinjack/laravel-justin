@@ -141,19 +141,21 @@ php artisan vendor:publish --provider="JustinLaravel\JustinServiceProvider" --ta
     * [listDepartmentsLang](https://github.com/martinjack/justin/blob/master/README.en.md#listdepartmentslang)
 11. Get nearest department by address
     * [getNeartDepartment](https://github.com/martinjack/justin/blob/master/README.en.md#getNeartDepartment)
-12. Get list statuses order.
+12. Cancel order
+    * [cancelOrder](https://github.com/martinjack/justin#cancelorder)
+13. Get list statuses order.
     * [listStatuses](https://github.com/martinjack/justin/blob/master/README.en.md#liststatuses)
-13. Get key seller(senderID)
+14. Get key seller(senderID)
     * [keySeller](https://github.com/martinjack/justin/blob/master/README.en.md#keyseller)
-14. Get tracking history
+15. Get tracking history
     * [trackingHistory](https://github.com/martinjack/justin/blob/master/README.en.md#trackingHistory)
-15. Get story statuses order. Old method
+16. Get story statuses order. Old method
     * [getStatusHistory](https://github.com/martinjack/justin/blob/master/README.en.md#getstatushistory)
-16. Get story statuses order.
+17. Get story statuses order.
     * [getStatusHistoryF](https://github.com/martinjack/justin/blob/master/README.en.md#getstatushistoryf)
-17. Create new order(Departure)
+18. Create new order(Departure)
     * [Order](https://github.com/martinjack/justi/blob/master/README.en.mdn#order)
-18. Create sticker order
+19. Create sticker order
     * [createSticker](https://github.com/martinjack/justin/blob/master/README.en.md#createsticker)
 
 # Examples

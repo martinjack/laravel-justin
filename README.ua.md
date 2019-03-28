@@ -141,6 +141,8 @@ php artisan vendor:publish --provider="JustinLaravel\JustinServiceProvider" --ta
     * [listDepartmentsLang](https://github.com/martinjack/justin/blob/master/README.ua.md#listdepartmentslang)
 11. Отримати найближче відділення за адресою
     * [getNeartDepartment](https://github.com/martinjack/justin/blob/master/README.ua.md#getNeartDepartment)
+12. Відміна замовлення
+    * [cancelOrder](https://github.com/martinjack/justin#cancelorder)
 12. Отримати список статусів замовлення
     * [listStatuses](https://github.com/martinjack/justin/blob/master/README.ua.md#liststatuses)
 13. Отримати ключ торговця(senderID)

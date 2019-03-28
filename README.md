@@ -141,19 +141,21 @@ php artisan vendor:publish --provider="JustinLaravel\JustinServiceProvider" --ta
     * [listDepartmentsLang](https://github.com/martinjack/justin#listdepartmentslang)
 11. Получить ближайшее отделение по адресу
     * [getNeartDepartment](https://github.com/martinjack/justin#getNeartDepartment)
-12. Получить список статусов заказа
+12. Отмена заказа
+    * [cancelOrder](https://github.com/martinjack/justin#cancelorder)
+13. Получить список статусов заказа
     * [listStatuses](https://github.com/martinjack/justin#liststatuses)
-13. Получить ключ торговца(senderID)
+14. Получить ключ торговца(senderID)
     * [keySeller](https://github.com/martinjack/justin#keyseller)
-14. Получить историю движения отправления
+15. Получить историю движения отправления
     * [trackingHistory](https://github.com/martinjack/justin#trackingHistory)
-15. Получить историю статусов заказа. Старый метод
+16. Получить историю статусов заказа. Старый метод
     * [getStatusHistory](https://github.com/martinjack/justin#getstatushistory)
-16. Получить историю статусов заказа.
+17. Получить историю статусов заказа.
     * [getStatusHistoryF](https://github.com/martinjack/justin#getstatushistoryf)
-17. Создать новый заказ(Отправление)
+18. Создать новый заказ(Отправление)
     * [Order](https://github.com/martinjack/justin#order)
-18. Создать стикер заказа
+19. Создать стикер заказа
     * [createSticker](https://github.com/martinjack/justin#createsticker)
 
 # Примеры
