@@ -154,7 +154,7 @@ php artisan vendor:publish --provider="JustinLaravel\JustinServiceProvider" --ta
 16. Отримати історію статусів замовлення.
     * [getStatusHistoryF](https://github.com/martinjack/justin/blob/master/README.ua.md#getstatushistoryf)
 17. Створити нове замовлення(Відправлення)
-    * [Order](https://github.com/martinjack/justin/blob/master/README.ua.md#order)
+    * [createOrder](https://github.com/martinjack/justin/blob/master/README.ua.md#order)
 18. Створити стікер замовлення
     * [createSticker](https://github.com/martinjack/justin/blob/master/README.ua.md#createsticker)
 

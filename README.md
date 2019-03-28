@@ -154,7 +154,7 @@ php artisan vendor:publish --provider="JustinLaravel\JustinServiceProvider" --ta
 17. Получить историю статусов заказа.
     * [getStatusHistoryF](https://github.com/martinjack/justin#getstatushistoryf)
 18. Создать новый заказ(Отправление)
-    * [Order](https://github.com/martinjack/justin#order)
+    * [createOrder](https://github.com/martinjack/justin#order)
 19. Создать стикер заказа
     * [createSticker](https://github.com/martinjack/justin#createsticker)
 
