@@ -39,7 +39,6 @@ JustinLaravel\JustinServiceProvider::class
 Потім для швидкого виклик класу пакета, додайте псевдонім в цей же файл:
 ```php
 'JustinLaravel' => JustinLaravel\Facades\JustinFacade::class,
-'OrderLaravel'  => JustinLaravel\Facades\OrderFacade::class
 ```
 
 ## Налаштування параметрів пакета

@@ -39,7 +39,6 @@ JustinLaravel\JustinServiceProvider::class
 Then to quickly call the class of the package, add an alias in the same file:
 ```php
 'JustinLaravel' => JustinLaravel\Facades\JustinFacade::class,
-'OrderLaravel'  => JustinLaravel\Facades\OrderFacade::class
 ```
 
 ## Package settings

@@ -73,7 +73,11 @@ class JustinLaravel extends Justin
 
                 config('justin-laravel.password')
 
-            );
+            )->orderVersion(
+
+            config('justin-laravel.sandbox'), config('laravel-justin.orderVersion')
+
+        );
 
     }
 
