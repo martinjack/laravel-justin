@@ -126,36 +126,44 @@ php artisan vendor:publish --provider="JustinLaravel\JustinServiceProvider" --ta
 3. Get list regions.
     * [listRegions](https://github.com/martinjack/justin/blob/master/README.en.md#listregions)
 4. Get list regional areas.
-    * [listAreasRegions](https://github.com/martinjack/justin/blob/master/README.en.md#listareasregions)
+    * [listAreasRegion](https://github.com/martinjack/justin/blob/master/README.en.md#listareasregion)
 5. Get list settlements.
     * [listCities](https://github.com/martinjack/justin/blob/master/README.en.md#listcities)
 6. Get list areas of settlements
     * [listCityRegion](https://github.com/martinjack/justin/blob/master/README.en.md#listcityregion)
 7. Get list streets city.
     * [listStreetsCity](https://github.com/martinjack/justin/blob/master/README.en.md#liststreetscity)
-8. Get information about department
+8. Get list types branches
+    * [branchTypes](https://github.com/martinjack/justin/blob/master/README.en.md#branchTypes)
+9. Get information about department
     * [getBranch](https://github.com/martinjack/justin/blob/master/README.en.md#getBranch)
-9. Get list departments. Old method
+10. Get list departments. Old method
     * [listDepartments](https://github.com/martinjack/justin/blob/master/README.en.md#listdepartments)
-10. Get list departments.
+11. Get list departments.
     * [listDepartmentsLang](https://github.com/martinjack/justin/blob/master/README.en.md#listdepartmentslang)
-11. Get nearest department by address
+12. Get schedule work branch
+    * [branchSchedule](https://github.com/martinjack/justin/blob/master/README.en.md#branchschedule)
+13. Get nearest department by address
     * [getNeartDepartment](https://github.com/martinjack/justin/blob/master/README.en.md#getNeartDepartment)
-12. Cancel order
+14. Cancel order
     * [cancelOrder](https://github.com/martinjack/justin#cancelorder)
-13. Get list statuses order.
+15. Get list statuses order.
     * [listStatuses](https://github.com/martinjack/justin/blob/master/README.en.md#liststatuses)
-14. Get key seller(senderID)
+16. Get key seller(senderID)
     * [keySeller](https://github.com/martinjack/justin/blob/master/README.en.md#keyseller)
-15. Get tracking history
+17. Get tracking history
     * [trackingHistory](https://github.com/martinjack/justin/blob/master/README.en.md#trackingHistory)
-16. Get story statuses order. Old method
+18. Get story statuses order. Old method
     * [getStatusHistory](https://github.com/martinjack/justin/blob/master/README.en.md#getstatushistory)
-17. Get story statuses order.
+19. Get story statuses order.
     * [getStatusHistoryF](https://github.com/martinjack/justin/blob/master/README.en.md#getstatushistoryf)
-18. Create new order(Departure)
-    * [createOrder](https://github.com/martinjack/justi/blob/master/README.en.mdn#createOrder)
-19. Create sticker order
+20. Create new order(Departure)
+    * [createOrder](https://github.com/martinjack/justi/blob/master/README.en.mdn#createorder)
+21. Get list orders for specified period
+    * [listOrders](https://github.com/martinjack/justi/blob/master/README.en.mdn#listorders)
+22. Get information about order
+    * [orderInfo](https://github.com/martinjack/justin/blob/master/README.en.md#orderinfo)
+23. Create sticker order
     * [createSticker](https://github.com/martinjack/justin/blob/master/README.en.md#createsticker)
 
 # Examples

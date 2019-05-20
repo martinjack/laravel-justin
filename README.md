@@ -126,36 +126,44 @@ php artisan vendor:publish --provider="JustinLaravel\JustinServiceProvider" --ta
 3. Получить список областей
     * [listRegions](https://github.com/martinjack/justin#listregions)
 4. Получить список областных районов
-    * [listAreasRegions](https://github.com/martinjack/justin#listareasregions)
+    * [listAreasRegion](https://github.com/martinjack/justin#listareasregion)
 5. Получить список населенных пунктов
     * [listCities](https://github.com/martinjack/justin#listcities)
 6. Получить список районов населенных пунктов
     * [listCityRegion](https://github.com/martinjack/justin#listcityregion)
 7. Получить список улиц города
     * [listStreetsCity](https://github.com/martinjack/justin#liststreetscity)
-8. Получить информацию про отделение
+8. Получить список типов отделений 
+    * [branchTypes](https://github.com/martinjack/justin#branchtypes)
+9. Получить информацию про отделение
     * [getBranch](https://github.com/martinjack/justin#getBranch)
-9. Получить список отделений. Старый метод
+10. Получить список отделений. Старый метод
     * [listDepartments](https://github.com/martinjack/justin#listdepartments)
-10. Получить список отделений.
+11. Получить список отделений.
     * [listDepartmentsLang](https://github.com/martinjack/justin#listdepartmentslang)
-11. Получить ближайшее отделение по адресу
+12. Получить расписание работы отделения
+    * [branchSchedule](https://github.com/martinjack/justin#branchschedule)
+13. Получить ближайшее отделение по адресу
     * [getNeartDepartment](https://github.com/martinjack/justin#getNeartDepartment)
-12. Отмена заказа
-    * [cancelOrder](https://github.com/martinjack/justin#cancelorder)
-13. Получить список статусов заказа
-    * [listStatuses](https://github.com/martinjack/justin#liststatuses)
-14. Получить ключ торговца(senderID)
-    * [keySeller](https://github.com/martinjack/justin#keyseller)
-15. Получить историю движения отправления
-    * [trackingHistory](https://github.com/martinjack/justin#trackingHistory)
-16. Получить историю статусов заказа. Старый метод
-    * [getStatusHistory](https://github.com/martinjack/justin#getstatushistory)
-17. Получить историю статусов заказа.
-    * [getStatusHistoryF](https://github.com/martinjack/justin#getstatushistoryf)
-18. Создать новый заказ(Отправление)
+14. Создать новый заказ(Отправление)
     * [createOrder](https://github.com/martinjack/justin#createOrder)
-19. Создать стикер заказа
+15. Отмена заказа
+    * [cancelOrder](https://github.com/martinjack/justin#cancelorder)
+16. Получить список статусов заказа
+    * [listStatuses](https://github.com/martinjack/justin#liststatuses)
+17. Получить ключ торговца(senderID)
+    * [keySeller](https://github.com/martinjack/justin#keyseller)
+18. Получить историю движения отправления
+    * [trackingHistory](https://github.com/martinjack/justin#trackingHistory)
+19. Получить историю статусов заказа. Старый метод
+    * [getStatusHistory](https://github.com/martinjack/justin#getstatushistory)
+20. Получить историю статусов заказа.
+    * [getStatusHistoryF](https://github.com/martinjack/justin#getstatushistoryf)
+21. Получить список заказов за указанный период
+    * [listOrders](https://github.com/martinjack/justin#listorders)
+22. Получить информацию о заказе
+    * [orderInfo](https://github.com/martinjack/justin#orderinfo)
+23. Создать стикер заказа
     * [createSticker](https://github.com/martinjack/justin#createsticker)
 
 # Примеры
