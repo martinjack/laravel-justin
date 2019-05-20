@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "jackmartin/justin": "*.*"
+        "jackmartin/justin": "*"
     },
     "autoload": {
         "psr-4": {
