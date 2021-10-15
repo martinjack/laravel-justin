@@ -15,12 +15,15 @@ use Justin\Justin;
 class JustinLaravel extends Justin
 {
 
-    public function __construct($language = 'UA', $sandbox = false, $version = 'v2', $timeout = 60, $connect_timeout = 60, $timezone = 'UTC')
+    public function __construct($language = '', $sandbox = false, $version = 'v2', $timeout = 60, $connect_timeout = 60, $timezone = 'UTC')
     {
         ###
         # SET CONFIG
         #
-        $language = config('justin-laravel.language') == $language ? $language : config('justin-laravel.language');
+        $language = !empty($language) ? $language : config('justin-laravel.language');
+        if(!in_array($language, ['UA', 'RU', 'EN'])){
+            $language = config('justin-laravel.language');
+        }
 
         $sandbox = config('justin-laravel.sandbox') == $sandbox ? $sandbox : config('justin-laravel.sandbox');
 
